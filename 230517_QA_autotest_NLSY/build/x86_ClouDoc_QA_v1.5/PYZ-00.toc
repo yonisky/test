@@ -1,5 +1,5 @@
 ('C:\\Users\\win8.1 '
- '32\\Desktop\\code\\230517_QA_autotest_NL_SP_KSY\\build\\x86_ClouDoc_QA_v1.5\\PYZ-00.pyz',
+ '32\\Desktop\\code\\230517_QA_autotest_NLSY\\build\\x86_ClouDoc_QA_v1.5\\PYZ-00.pyz',
  [('HtmlTestRunner',
    'C:\\Users\\win8.1 '
    '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\HtmlTestRunner\\__init__.py',
@@ -1340,9 +1340,8 @@
    'C:\\Users\\win8.1 '
    '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pygetwindow\\_pygetwindow_win.py',
    'PYMODULE'),
-  ('pyiboot7',
-   'C:\\Users\\win8.1 '
-   '32\\Desktop\\code\\230517_QA_autotest_NL_SP_KSY\\pyiboot7.py',
+  ('pyiboot8',
+   'C:\\Users\\win8.1 32\\Desktop\\code\\230517_QA_autotest_NLSY\\pyiboot8.py',
    'PYMODULE'),
   ('pymsgbox',
    'C:\\Users\\win8.1 '

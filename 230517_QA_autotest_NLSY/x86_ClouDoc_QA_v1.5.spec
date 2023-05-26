@@ -5,7 +5,7 @@ block_cipher = pyi_crypto.PyiBlockCipher(key='TeamSQA')
 
 
 a = Analysis(
-    ['pyiboot00_CryptoLocker.py'],
+    ['pyiboot00_CryptoLocker8.py'],
     pathex=[],
     binaries=[],
     datas=[],
