@@ -1,0 +1,27 @@
+2023-05-24 15:36:26.408 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*M:\\.*', ControlType: WindowControl}
+2023-05-24 15:36:46.399 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*M:\\.*', ControlType: WindowControl}
+2023-05-24 15:37:06.274 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*M:\\.*', ControlType: WindowControl}
+2023-05-24 15:37:30.331 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*M:\\.*', ControlType: WindowControl}
+2023-05-24 15:41:03.029 pyiboot7.py[549] after_export -> Find Control Timeout(10s): {AutomationId: '9227', ControlType: RadioButtonControl}
+2023-05-24 15:41:50.059 pyiboot7.py[653] pre_export -> Find Control Timeout(10s): {Name: '승인권자(A):', ControlType: EditControl}
+2023-05-24 15:49:05.019 pyiboot7.py[159] delete_file -> 2023-05-24 16:06:11.811 pyiboot7.py[433] weblink -> Find Control Timeout(10s): {Name: 'weblink.txt', ControlType: ListItemControl}
+2023-05-24 16:06:21.920 pyiboot7.py[438] weblink -> Find Control Timeout(10s): {Name: 'DWM Notification Window', ControlType: WindowControl}
+2023-05-24 16:06:40.077 pyiboot7.py[549] after_export -> Find Control Timeout(10s): {AutomationId: '9227', ControlType: RadioButtonControl}
+2023-05-24 16:07:27.152 pyiboot7.py[653] pre_export -> Find Control Timeout(10s): {Name: '승인권자(A):', ControlType: EditControl}
+2023-05-24 16:07:44.910 pyiboot7.py[671] pre_export -> 2023-05-24 16:10:35.708 pyiboot7.py[653] pre_export -> 2023-05-24 16:14:35.024 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*M:\\.*', ControlType: WindowControl}
+2023-05-24 16:14:55.390 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*M:\\.*', ControlType: WindowControl}
+2023-05-24 16:15:15.455 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*M:\\.*', ControlType: WindowControl}
+2023-05-24 16:15:38.977 pyiboot7.py[106] copy_file -> 2023-05-24 16:22:00.263 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*M:\\.*', ControlType: WindowControl}
+2023-05-24 16:22:20.325 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*M:\\.*', ControlType: WindowControl}
+2023-05-24 16:22:40.494 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*M:\\.*', ControlType: WindowControl}
+2023-05-24 16:23:06.393 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*M:\\.*', ControlType: WindowControl}
+2023-05-24 16:26:35.669 pyiboot7.py[549] after_export -> Find Control Timeout(10s): {AutomationId: '9227', ControlType: RadioButtonControl}
+2023-05-24 16:27:24.103 pyiboot7.py[653] pre_export -> 2023-05-24 16:29:47.749 pyiboot7.py[653] pre_export -> Find Control Timeout(10s): {Name: '승인권자(A):', ControlType: EditControl}
+2023-05-24 16:30:05.426 pyiboot7.py[671] pre_export -> 2023-05-24 16:35:42.494 pyiboot7.py[653] pre_export -> 2023-05-24 16:40:35.047 pyiboot7.py[653] pre_export -> 2023-05-25 09:45:57.111 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*E:\\.*', ControlType: WindowControl}
+2023-05-25 09:46:17.738 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*E:\\.*', ControlType: WindowControl}
+2023-05-25 09:46:38.847 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*E:\\.*', ControlType: WindowControl}
+2023-05-25 09:47:02.792 pyiboot7.py[106] copy_file -> Find Control Timeout(10s): {RegexName: '.*E:\\.*', ControlType: WindowControl}
+2023-05-25 09:52:15.096 pyiboot7.py[549] after_export -> Find Control Timeout(10s): {AutomationId: '9227', ControlType: RadioButtonControl}
+2023-05-25 09:53:03.805 pyiboot7.py[653] pre_export -> 2023-05-25 10:03:51.413 pyiboot7.py[652] pre_export -> Find Control Timeout(10s): {Name: '반출 신청', ControlType: WindowControl}
+2023-05-25 10:04:04.557 pyiboot7.py[652] pre_export -> 2023-05-25 10:05:48.972 pyiboot7.py[653] pre_export -> 2023-05-25 10:07:55.066 pyiboot7.py[653] pre_export -> 2023-05-25 10:40:01.454 pyiboot7.py[637] pre_export -> Find Control Timeout(10s): {Name: 'pre_export.txt', ControlType: ListItemControl}
+2023-05-25 10:40:11.566 pyiboot7.py[642] pre_export -> 2023-05-25 10:41:09.042 pyiboot7.py[653] pre_export -> 2023-05-25 15:40:31.321 pyiboot7.py[653] pre_export -> 

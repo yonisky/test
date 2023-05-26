@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Activity mc:Ignorable="sap sap2010" x:Class="B_04_폴더_office_IO" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1152,3420" sap2010:WorkflowViewState.IdRef="B_04_폴더_office_IO_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.PowerPoint</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="B_04_폴더_office_IO" sap:VirtualizedContainerService.HintSize="955,3255" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Default="[DateTime.Now.ToString(&quot;yyyy-MM-dd_HHmm&quot;)]" Name="today" />
+      <Variable x:TypeArguments="x:Int32" Name="tc_num">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Int32" Value="48" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Default="C:\RPA_TEST\RPA_Client_TC.xlsx" Name="testcase" />
+      <Variable x:TypeArguments="x:Boolean" Name="result" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="913,79" sap2010:WorkflowViewState.IdRef="CreateDirectory_1" Path="Z:\rpa_new_folder" />
+    <ui:PathExists DisplayName="Path Exists" Exists="[result]" sap:VirtualizedContainerService.HintSize="913,89" sap2010:WorkflowViewState.IdRef="PathExists_1" Path="Z:\rpa_new_folder" PathType="Folder" />
+    <If Condition="[result = True]" sap:VirtualizedContainerService.HintSize="913,537" sap2010:WorkflowViewState.IdRef="If_1">
+      <If.Then>
+        <ui:ExcelApplicationScope Password="{x:Null}" CreateNewFile="False" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,389" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" Visible="False" WorkbookPath="[testcase]">
+          <ui:ExcelApplicationScope.Body>
+            <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="376,280" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:ExcelWriteCell Cell="[&quot;H&quot;+tc_num.ToString]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_1" SheetName="Sheet1" Text="Pass" />
+                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;H&quot;+tc_num.ToString+&quot;[Pass] : 폴더 생성&quot;]" />
+              </Sequence>
+            </ActivityAction>
+          </ui:ExcelApplicationScope.Body>
+        </ui:ExcelApplicationScope>
+      </If.Then>
+      <If.Else>
+        <ui:ExcelApplicationScope Password="{x:Null}" CreateNewFile="False" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,389" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" Visible="False" WorkbookPath="[testcase]">
+          <ui:ExcelApplicationScope.Body>
+            <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="376,280" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:ExcelWriteCell Cell="[&quot;H&quot;+tc_num.ToString]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_2" SheetName="Sheet1" Text="Fail" />
+                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[&quot;H&quot;+tc_num.ToString+&quot;[Fail] : 폴더 생성&quot;]" />
+              </Sequence>
+            </ActivityAction>
+          </ui:ExcelApplicationScope.Body>
+        </ui:ExcelApplicationScope>
+      </If.Else>
+    </If>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="폴더 OFFICE 파일 쓰기" sap:VirtualizedContainerService.HintSize="913,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="C.테스트_실행/C.01.office_write.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="f_name">[today]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="path">Z:\rpa_new_folder\</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <Assign DisplayName="tc_num + 2" sap:VirtualizedContainerService.HintSize="913,60" sap2010:WorkflowViewState.IdRef="Assign_7">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Int32">[tc_num+2]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="폴더 excel 검증" sap:VirtualizedContainerService.HintSize="913,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="D.테스트_검증/D.02.excel_vf.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="f_name">[today + ".xlsx"]</InArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">[tc_num]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="read1">헬로우 엑셀</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="read2" />
+        <InArgument x:TypeArguments="x:String" x:Key="testcase">[testcase]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="path">Z:\rpa_new_folder\</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <Assign DisplayName="tc_num + 1" sap:VirtualizedContainerService.HintSize="913,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Int32">[tc_num+1]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="폴더 winword 검증" sap:VirtualizedContainerService.HintSize="913,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="D.테스트_검증/D.03.winword_vf.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="f_name">[today + ".docx"]</InArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">[tc_num]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="read">["헬로우 워드" + vbCr]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="testcase">[testcase]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="path">Z:\rpa_new_folder\</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="개인문서함 루트 경로 -&gt; 1depth 폴더 경로" sap:VirtualizedContainerService.HintSize="913,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="C.테스트_실행/C.03.file_move_ctrlxv.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="scr_path">Z:\</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="des_path">Z:\1depth\</InArgument>
+        <InArgument x:TypeArguments="x:Boolean" x:Key="change">False</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="f_name">rpa_new_folder</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <Assign DisplayName="tc_num" sap:VirtualizedContainerService.HintSize="913,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Int32">53</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="1depth로 폴더 이동 검증" sap:VirtualizedContainerService.HintSize="913,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="D.테스트_검증/D.04.folder_move_vf.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="scr_path">Z:\</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="des_path">Z:\1depth\</InArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">[tc_num]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="testcase">[testcase]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="f_name">rpa_new_folder</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="1depth 폴더 경로 -&gt; 부서문서함" sap:VirtualizedContainerService.HintSize="913,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="C.테스트_실행/C.03.file_move_ctrlxv.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="scr_path">Z:\1depth\</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="des_path">X:\</InArgument>
+        <InArgument x:TypeArguments="x:Boolean" x:Key="change">False</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="f_name">rpa_new_folder</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <Assign DisplayName="tc_num + 1" sap:VirtualizedContainerService.HintSize="913,60" sap2010:WorkflowViewState.IdRef="Assign_4">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Int32">[tc_num+1]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="부서문서함으로 폴더 이동 검증" sap:VirtualizedContainerService.HintSize="913,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="D.테스트_검증/D.04.folder_move_vf.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="scr_path">Z:\1depth\</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="des_path">X:\</InArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">[tc_num]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="testcase">[testcase]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="f_name">rpa_new_folder</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="부서문서함 -&gt; 개인문서함 (복사)" sap:VirtualizedContainerService.HintSize="913,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="C.테스트_실행/C.04.file_copy - ctrlcv.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="scr_path">X:\</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="des_path">Z:\</InArgument>
+        <InArgument x:TypeArguments="x:Boolean" x:Key="change">False</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="f_name">rpa_new_folder</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <Assign DisplayName="tc_num + 1" sap:VirtualizedContainerService.HintSize="913,60" sap2010:WorkflowViewState.IdRef="Assign_5">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Int32">[tc_num+2]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="개인문서함으로 폴더 복사 검증" sap:VirtualizedContainerService.HintSize="913,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_16" UnSafe="False" WorkflowFileName="D.테스트_검증/D.05.folder_copy_vf.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="scr_path">X:\</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="des_path">Z:\</InArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">[tc_num]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="testcase">[testcase]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="f_name">rpa_new_folder</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="개인문서함 루트 -&gt; 1depth 폴더 경로 (복사)" sap:VirtualizedContainerService.HintSize="913,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_17" UnSafe="False" WorkflowFileName="C.테스트_실행/C.04.file_copy - ctrlcv.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="scr_path">Z:\</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="des_path">Z:\1depth\</InArgument>
+        <InArgument x:TypeArguments="x:Boolean" x:Key="change">False</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="f_name">rpa_new_folder</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <Assign DisplayName="tc_num + 1" sap:VirtualizedContainerService.HintSize="913,60" sap2010:WorkflowViewState.IdRef="Assign_6">
+      <Assign.To>
+        <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+      </Assign.To>
+      <Assign.Value>
+        <InArgument x:TypeArguments="x:Int32">[tc_num+1]</InArgument>
+      </Assign.Value>
+    </Assign>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="1depth로 폴더 복사 검증" sap:VirtualizedContainerService.HintSize="913,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_18" UnSafe="False" WorkflowFileName="D.테스트_검증/D.05.folder_copy_vf.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="scr_path">Z:\</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="des_path">Z:\1depth\</InArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">[tc_num]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="testcase">[testcase]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="f_name">rpa_new_folder</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <Sequence DisplayName="Tear down" sap:VirtualizedContainerService.HintSize="913,66" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="testcase" />
+      </Sequence.Variables>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:Delete ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delete_1" Path="Z:\rpa_new_folder" />
+      <ui:Delete ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delete_2" Path="Z:\1depth\rpa_new_folder" />
+      <ui:Delete ContinueOnError="{x:Null}" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Delete_3" Path="X:\rpa_new_folder" />
+    </Sequence>
+  </Sequence>
+</Activity>

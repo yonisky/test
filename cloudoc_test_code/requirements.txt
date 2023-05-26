@@ -1,0 +1,10 @@
+html-testRunner==1.2.1 	--- latest 1.2.1 , Realeased Sep4, 2019
+PyAutoGUI==0.9.52	--- latest 0.9.53 , Realeased Jul 8, 2021
+PyGetWindow==0.0.9	--- latest 0.0.9 , Realeased Oct4, 2020
+pywin32==304 		--- latest 304 , Realeased May2, 2022
+pywinauto==0.6.8		--- latest 0.6.8 , Realeased Oct 28, 2019
+requests==2.25.1 		--- latest 2.28.1 , Realeased Jun30, 2022
+selenium==3.141.0		--- latest 4.4.3 , Realeased Aug 19, 2022
+uiautomation==2.0.10	--- latest 2.0.17 , Realeased Aug 1, 2022
+winshell==0.6		--- latest 0.6 , Realeased Mar 26, 2012
+webdriver-manager==3.5.2  --- latest 3.8.3 , Realeased Jul 30, 2022

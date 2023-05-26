@@ -1,0 +1,2563 @@
+('C:\\Users\\win8.1 '
+ '32\\Desktop\\code\\230517_QA_autotest_NL_SP_KSY\\build\\x86_ClouDoc_QA_v1.5\\PYZ-00.pyz',
+ [('HtmlTestRunner',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\HtmlTestRunner\\__init__.py',
+   'PYMODULE'),
+  ('HtmlTestRunner.result',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\HtmlTestRunner\\result.py',
+   'PYMODULE'),
+  ('HtmlTestRunner.runner',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\HtmlTestRunner\\runner.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('__winshell_version__',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\__winshell_version__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\_compression.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ast.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\base64.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\bdb.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('certifi',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('cgi',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\cgi.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('charset_normalizer.assets',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\charset_normalizer\\assets\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\charset_normalizer\\cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\cmd.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('colorama',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('commctrl',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32\\lib\\commctrl.py',
+   'PYMODULE'),
+  ('comtypes',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\__init__.py',
+   'PYMODULE'),
+  ('comtypes.GUID',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\GUID.py',
+   'PYMODULE'),
+  ('comtypes._comobject',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\_comobject.py',
+   'PYMODULE'),
+  ('comtypes._meta',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\_meta.py',
+   'PYMODULE'),
+  ('comtypes._safearray',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\_safearray.py',
+   'PYMODULE'),
+  ('comtypes.automation',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\automation.py',
+   'PYMODULE'),
+  ('comtypes.client',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\client\\__init__.py',
+   'PYMODULE'),
+  ('comtypes.client._code_cache',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\client\\_code_cache.py',
+   'PYMODULE'),
+  ('comtypes.client._constants',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\client\\_constants.py',
+   'PYMODULE'),
+  ('comtypes.client._events',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\client\\_events.py',
+   'PYMODULE'),
+  ('comtypes.client._generate',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\client\\_generate.py',
+   'PYMODULE'),
+  ('comtypes.client.dynamic',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\client\\dynamic.py',
+   'PYMODULE'),
+  ('comtypes.client.lazybind',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\client\\lazybind.py',
+   'PYMODULE'),
+  ('comtypes.connectionpoints',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\connectionpoints.py',
+   'PYMODULE'),
+  ('comtypes.errorinfo',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\errorinfo.py',
+   'PYMODULE'),
+  ('comtypes.gen',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\gen\\__init__.py',
+   'PYMODULE'),
+  ('comtypes.hresult',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\hresult.py',
+   'PYMODULE'),
+  ('comtypes.messageloop',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\messageloop.py',
+   'PYMODULE'),
+  ('comtypes.npsupport',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\npsupport.py',
+   'PYMODULE'),
+  ('comtypes.patcher',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\patcher.py',
+   'PYMODULE'),
+  ('comtypes.persist',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\persist.py',
+   'PYMODULE'),
+  ('comtypes.safearray',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\safearray.py',
+   'PYMODULE'),
+  ('comtypes.server',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\server\\__init__.py',
+   'PYMODULE'),
+  ('comtypes.tools',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\tools\\__init__.py',
+   'PYMODULE'),
+  ('comtypes.tools.codegenerator',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\tools\\codegenerator.py',
+   'PYMODULE'),
+  ('comtypes.tools.tlbparser',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\tools\\tlbparser.py',
+   'PYMODULE'),
+  ('comtypes.tools.typedesc',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\tools\\typedesc.py',
+   'PYMODULE'),
+  ('comtypes.tools.typedesc_base',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\tools\\typedesc_base.py',
+   'PYMODULE'),
+  ('comtypes.typeinfo',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\comtypes\\typeinfo.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\configparser.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\copy.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\dis.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\doctest.py',
+   'PYMODULE'),
+  ('dotenv',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\dotenv\\__init__.py',
+   'PYMODULE'),
+  ('dotenv.ipython',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\dotenv\\ipython.py',
+   'PYMODULE'),
+  ('dotenv.main',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\dotenv\\main.py',
+   'PYMODULE'),
+  ('dotenv.parser',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\dotenv\\parser.py',
+   'PYMODULE'),
+  ('dotenv.variables',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\dotenv\\variables.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('filecmp',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\filecmp.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\getpass.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\glob.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\html\\entities.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\http\\server.py',
+   'PYMODULE'),
+  ('idna',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.core',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('imp',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\imp.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources._legacy',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\resources\\_legacy.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('jinja2',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\__init__.py',
+   'PYMODULE'),
+  ('jinja2._identifier',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\_identifier.py',
+   'PYMODULE'),
+  ('jinja2.async_utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\async_utils.py',
+   'PYMODULE'),
+  ('jinja2.bccache',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\bccache.py',
+   'PYMODULE'),
+  ('jinja2.compiler',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\compiler.py',
+   'PYMODULE'),
+  ('jinja2.constants',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\constants.py',
+   'PYMODULE'),
+  ('jinja2.debug',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\debug.py',
+   'PYMODULE'),
+  ('jinja2.defaults',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\defaults.py',
+   'PYMODULE'),
+  ('jinja2.environment',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\environment.py',
+   'PYMODULE'),
+  ('jinja2.exceptions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\exceptions.py',
+   'PYMODULE'),
+  ('jinja2.ext',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\ext.py',
+   'PYMODULE'),
+  ('jinja2.filters',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\filters.py',
+   'PYMODULE'),
+  ('jinja2.idtracking',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\idtracking.py',
+   'PYMODULE'),
+  ('jinja2.lexer',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\lexer.py',
+   'PYMODULE'),
+  ('jinja2.loaders',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\loaders.py',
+   'PYMODULE'),
+  ('jinja2.nodes',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\nodes.py',
+   'PYMODULE'),
+  ('jinja2.optimizer',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\optimizer.py',
+   'PYMODULE'),
+  ('jinja2.parser',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\parser.py',
+   'PYMODULE'),
+  ('jinja2.runtime',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\runtime.py',
+   'PYMODULE'),
+  ('jinja2.sandbox',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\sandbox.py',
+   'PYMODULE'),
+  ('jinja2.tests',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\tests.py',
+   'PYMODULE'),
+  ('jinja2.utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\utils.py',
+   'PYMODULE'),
+  ('jinja2.visitor',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\jinja2\\visitor.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('markupsafe',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\markupsafe\\__init__.py',
+   'PYMODULE'),
+  ('markupsafe._native',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\markupsafe\\_native.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('mouseinfo',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\mouseinfo\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\nturl2path.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('packaging',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('packaging.metadata',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\metadata.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\pdb.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._adapters',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_adapters.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._common',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_common.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._compat',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._itertools',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_itertools.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._legacy',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_legacy.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.abc',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\abc.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.readers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\readers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.simple',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\simple.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.context',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\context.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.functools',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\functools.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.text',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools.more',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools.recipes',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._manylinux',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._musllinux',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.actions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\actions.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.common',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\common.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.core',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\core.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.diagram',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\diagram\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.exceptions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\exceptions.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.helpers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\helpers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.results',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\results.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.testing',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\testing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.unicode',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\unicode.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.util',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\util.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.zipp',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\_vendor\\zipp.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\pkgutil.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\plistlib.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('pyautogui',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pyautogui\\__init__.py',
+   'PYMODULE'),
+  ('pyautogui._pyautogui_osx',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pyautogui\\_pyautogui_osx.py',
+   'PYMODULE'),
+  ('pyautogui._pyautogui_win',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pyautogui\\_pyautogui_win.py',
+   'PYMODULE'),
+  ('pyautogui._pyautogui_x11',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pyautogui\\_pyautogui_x11.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\pydoc.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pygetwindow',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pygetwindow\\__init__.py',
+   'PYMODULE'),
+  ('pygetwindow._pygetwindow_macos',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pygetwindow\\_pygetwindow_macos.py',
+   'PYMODULE'),
+  ('pygetwindow._pygetwindow_win',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pygetwindow\\_pygetwindow_win.py',
+   'PYMODULE'),
+  ('pyiboot7',
+   'C:\\Users\\win8.1 '
+   '32\\Desktop\\code\\230517_QA_autotest_NL_SP_KSY\\pyiboot7.py',
+   'PYMODULE'),
+  ('pymsgbox',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pymsgbox\\__init__.py',
+   'PYMODULE'),
+  ('pymsgbox._native_win',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pymsgbox\\_native_win.py',
+   'PYMODULE'),
+  ('pyperclip',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pyperclip\\__init__.py',
+   'PYMODULE'),
+  ('pyrect',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pyrect\\__init__.py',
+   'PYMODULE'),
+  ('pyscreeze',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pyscreeze\\__init__.py',
+   'PYMODULE'),
+  ('pythoncom',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pythoncom.py',
+   'PYMODULE'),
+  ('pytweening',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pytweening\\__init__.py',
+   'PYMODULE'),
+  ('pywin',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\Pythonwin\\pywin\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\Pythonwin\\pywin\\dialogs\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs.list',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\Pythonwin\\pywin\\dialogs\\list.py',
+   'PYMODULE'),
+  ('pywin.dialogs.status',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\Pythonwin\\pywin\\dialogs\\status.py',
+   'PYMODULE'),
+  ('pywin.mfc',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\__init__.py',
+   'PYMODULE'),
+  ('pywin.mfc.dialog',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\dialog.py',
+   'PYMODULE'),
+  ('pywin.mfc.object',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\object.py',
+   'PYMODULE'),
+  ('pywin.mfc.thread',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\thread.py',
+   'PYMODULE'),
+  ('pywin.mfc.window',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\Pythonwin\\pywin\\mfc\\window.py',
+   'PYMODULE'),
+  ('pywin32_system32', '-', 'PYMODULE'),
+  ('pywinauto',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\__init__.py',
+   'PYMODULE'),
+  ('pywinauto.actionlogger',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\actionlogger.py',
+   'PYMODULE'),
+  ('pywinauto.application',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\application.py',
+   'PYMODULE'),
+  ('pywinauto.backend',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\backend.py',
+   'PYMODULE'),
+  ('pywinauto.base_wrapper',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\base_wrapper.py',
+   'PYMODULE'),
+  ('pywinauto.controlproperties',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\controlproperties.py',
+   'PYMODULE'),
+  ('pywinauto.controls',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\controls\\__init__.py',
+   'PYMODULE'),
+  ('pywinauto.controls.common_controls',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\controls\\common_controls.py',
+   'PYMODULE'),
+  ('pywinauto.controls.hwndwrapper',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\controls\\hwndwrapper.py',
+   'PYMODULE'),
+  ('pywinauto.controls.menuwrapper',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\controls\\menuwrapper.py',
+   'PYMODULE'),
+  ('pywinauto.controls.uia_controls',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\controls\\uia_controls.py',
+   'PYMODULE'),
+  ('pywinauto.controls.uiawrapper',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\controls\\uiawrapper.py',
+   'PYMODULE'),
+  ('pywinauto.controls.win32_controls',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\controls\\win32_controls.py',
+   'PYMODULE'),
+  ('pywinauto.element_info',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\element_info.py',
+   'PYMODULE'),
+  ('pywinauto.findbestmatch',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\findbestmatch.py',
+   'PYMODULE'),
+  ('pywinauto.findwindows',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\findwindows.py',
+   'PYMODULE'),
+  ('pywinauto.handleprops',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\handleprops.py',
+   'PYMODULE'),
+  ('pywinauto.keyboard',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\keyboard.py',
+   'PYMODULE'),
+  ('pywinauto.linux',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\linux\\__init__.py',
+   'PYMODULE'),
+  ('pywinauto.linux.keyboard',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\linux\\keyboard.py',
+   'PYMODULE'),
+  ('pywinauto.mouse',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\mouse.py',
+   'PYMODULE'),
+  ('pywinauto.remote_memory_block',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\remote_memory_block.py',
+   'PYMODULE'),
+  ('pywinauto.sysinfo',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\sysinfo.py',
+   'PYMODULE'),
+  ('pywinauto.tests',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\tests\\__init__.py',
+   'PYMODULE'),
+  ('pywinauto.timings',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\timings.py',
+   'PYMODULE'),
+  ('pywinauto.uia_defines',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\uia_defines.py',
+   'PYMODULE'),
+  ('pywinauto.uia_element_info',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\uia_element_info.py',
+   'PYMODULE'),
+  ('pywinauto.win32_element_info',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\win32_element_info.py',
+   'PYMODULE'),
+  ('pywinauto.win32defines',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\win32defines.py',
+   'PYMODULE'),
+  ('pywinauto.win32functions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\win32functions.py',
+   'PYMODULE'),
+  ('pywinauto.win32structures',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\win32structures.py',
+   'PYMODULE'),
+  ('pywinauto.xml_helpers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\pywinauto\\xml_helpers.py',
+   'PYMODULE'),
+  ('pywintypes',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32\\lib\\pywintypes.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\queue.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\random.py',
+   'PYMODULE'),
+  ('requests',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('requests.api',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.models',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('selenium',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\__init__.py',
+   'PYMODULE'),
+  ('selenium.common',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\common\\__init__.py',
+   'PYMODULE'),
+  ('selenium.common.exceptions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\common\\exceptions.py',
+   'PYMODULE'),
+  ('selenium.types',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\types.py',
+   'PYMODULE'),
+  ('selenium.webdriver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\chrome\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome.options',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\chrome\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome.service',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\chrome\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chrome.webdriver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\chrome\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chromium',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\chromium\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chromium.options',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\chromium\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chromium.remote_connection',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\chromium\\remote_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chromium.service',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\chromium\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.chromium.webdriver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\chromium\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.action_chains',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\action_chains.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.action_builder',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\action_builder.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.input_device',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\input_device.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.interaction',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\interaction.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.key_actions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\key_actions.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.key_input',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\key_input.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.mouse_button',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\mouse_button.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.pointer_actions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\pointer_actions.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.pointer_input',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\pointer_input.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.wheel_actions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\wheel_actions.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.actions.wheel_input',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\actions\\wheel_input.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.alert',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\alert.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.by',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\by.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.desired_capabilities',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\desired_capabilities.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.driver_finder',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\driver_finder.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.html5',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\html5\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.html5.application_cache',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\html5\\application_cache.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.keys',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\keys.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.options',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.print_page_options',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\print_page_options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.proxy',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\proxy.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.selenium_manager',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\selenium_manager.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.service',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.timeouts',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\timeouts.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\utils.py',
+   'PYMODULE'),
+  ('selenium.webdriver.common.virtual_authenticator',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\common\\virtual_authenticator.py',
+   'PYMODULE'),
+  ('selenium.webdriver.edge',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\edge\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.edge.options',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\edge\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.edge.service',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\edge\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.edge.webdriver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\edge\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\firefox\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.firefox_binary',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\firefox\\firefox_binary.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.firefox_profile',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\firefox\\firefox_profile.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.options',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\firefox\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.remote_connection',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\firefox\\remote_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.service',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\firefox\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.firefox.webdriver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.ie',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\ie\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.ie.options',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\ie\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.ie.service',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\ie\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.ie.webdriver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\ie\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.bidi_connection',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\bidi_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.command',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\command.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.errorhandler',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.file_detector',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\file_detector.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.mobile',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\mobile.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.remote_connection',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\remote_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.script_key',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\script_key.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.shadowroot',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\shadowroot.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.switch_to',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\switch_to.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\utils.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.webdriver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.remote.webelement',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\safari\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari.options',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\safari\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari.remote_connection',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\safari\\remote_connection.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari.service',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\safari\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.safari.webdriver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\safari\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.support',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\support\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.support.relative_locator',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\support\\relative_locator.py',
+   'PYMODULE'),
+  ('selenium.webdriver.webkitgtk',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.webkitgtk.options',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.webkitgtk.service',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.webkitgtk.webdriver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\webkitgtk\\webdriver.py',
+   'PYMODULE'),
+  ('selenium.webdriver.wpewebkit',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\__init__.py',
+   'PYMODULE'),
+  ('selenium.webdriver.wpewebkit.options',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\options.py',
+   'PYMODULE'),
+  ('selenium.webdriver.wpewebkit.service',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\service.py',
+   'PYMODULE'),
+  ('selenium.webdriver.wpewebkit.webdriver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\selenium\\webdriver\\wpewebkit\\webdriver.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\signal.py',
+   'PYMODULE'),
+  ('six',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\socket.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\socketserver.py',
+   'PYMODULE'),
+  ('socks',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\socks.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\string.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\sysconfig.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\threading.py',
+   'PYMODULE'),
+  ('tkinter',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('tkinter.ttk',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\tkinter\\ttk.py',
+   'PYMODULE'),
+  ('tqdm',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\tqdm\\__init__.py',
+   'PYMODULE'),
+  ('tqdm._dist_ver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\tqdm\\_dist_ver.py',
+   'PYMODULE'),
+  ('tqdm._monitor',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\tqdm\\_monitor.py',
+   'PYMODULE'),
+  ('tqdm._tqdm_pandas',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\tqdm\\_tqdm_pandas.py',
+   'PYMODULE'),
+  ('tqdm.cli',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\tqdm\\cli.py',
+   'PYMODULE'),
+  ('tqdm.gui',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\tqdm\\gui.py',
+   'PYMODULE'),
+  ('tqdm.notebook',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\tqdm\\notebook.py',
+   'PYMODULE'),
+  ('tqdm.std',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\tqdm\\std.py',
+   'PYMODULE'),
+  ('tqdm.utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\tqdm\\utils.py',
+   'PYMODULE'),
+  ('tqdm.version',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\tqdm\\version.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\tty.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\typing.py',
+   'PYMODULE'),
+  ('uiautomation',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\uiautomation\\__init__.py',
+   'PYMODULE'),
+  ('uiautomation.uiautomation',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\uiautomation\\uiautomation.py',
+   'PYMODULE'),
+  ('uiautomation.version',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\uiautomation\\version.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('urllib3',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\_base_connection.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\_request_methods.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\util.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('webdriver_manager',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\__init__.py',
+   'PYMODULE'),
+  ('webdriver_manager.chrome',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\chrome.py',
+   'PYMODULE'),
+  ('webdriver_manager.core',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\core\\__init__.py',
+   'PYMODULE'),
+  ('webdriver_manager.core.archive',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\core\\archive.py',
+   'PYMODULE'),
+  ('webdriver_manager.core.config',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\core\\config.py',
+   'PYMODULE'),
+  ('webdriver_manager.core.constants',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\core\\constants.py',
+   'PYMODULE'),
+  ('webdriver_manager.core.download_manager',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\core\\download_manager.py',
+   'PYMODULE'),
+  ('webdriver_manager.core.driver',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\core\\driver.py',
+   'PYMODULE'),
+  ('webdriver_manager.core.driver_cache',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\core\\driver_cache.py',
+   'PYMODULE'),
+  ('webdriver_manager.core.http',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\core\\http.py',
+   'PYMODULE'),
+  ('webdriver_manager.core.logger',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\core\\logger.py',
+   'PYMODULE'),
+  ('webdriver_manager.core.manager',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\core\\manager.py',
+   'PYMODULE'),
+  ('webdriver_manager.core.utils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\core\\utils.py',
+   'PYMODULE'),
+  ('webdriver_manager.drivers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\drivers\\__init__.py',
+   'PYMODULE'),
+  ('webdriver_manager.drivers.chrome',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\drivers\\chrome.py',
+   'PYMODULE'),
+  ('webdriver_manager.drivers.edge',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\drivers\\edge.py',
+   'PYMODULE'),
+  ('webdriver_manager.drivers.ie',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\drivers\\ie.py',
+   'PYMODULE'),
+  ('webdriver_manager.microsoft',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\webdriver_manager\\microsoft.py',
+   'PYMODULE'),
+  ('win32com',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\client\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.CLSIDToClass',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\client\\CLSIDToClass.py',
+   'PYMODULE'),
+  ('win32com.client.build',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\client\\build.py',
+   'PYMODULE'),
+  ('win32com.client.dynamic',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\client\\dynamic.py',
+   'PYMODULE'),
+  ('win32com.client.gencache',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\client\\gencache.py',
+   'PYMODULE'),
+  ('win32com.client.genpy',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\client\\genpy.py',
+   'PYMODULE'),
+  ('win32com.client.makepy',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\client\\makepy.py',
+   'PYMODULE'),
+  ('win32com.client.selecttlb',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\client\\selecttlb.py',
+   'PYMODULE'),
+  ('win32com.client.util',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\client\\util.py',
+   'PYMODULE'),
+  ('win32com.server',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\server\\__init__.py',
+   'PYMODULE'),
+  ('win32com.server.dispatcher',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\server\\dispatcher.py',
+   'PYMODULE'),
+  ('win32com.server.exception',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\server\\exception.py',
+   'PYMODULE'),
+  ('win32com.server.policy',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\server\\policy.py',
+   'PYMODULE'),
+  ('win32com.server.util',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\server\\util.py',
+   'PYMODULE'),
+  ('win32com.shell',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32comext\\shell\\__init__.py',
+   'PYMODULE'),
+  ('win32com.shell.shellcon',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32comext\\shell\\shellcon.py',
+   'PYMODULE'),
+  ('win32com.storagecon',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\storagecon.py',
+   'PYMODULE'),
+  ('win32com.universal',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\universal.py',
+   'PYMODULE'),
+  ('win32com.util',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32com\\util.py',
+   'PYMODULE'),
+  ('win32con',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE'),
+  ('win32gui_struct',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32\\lib\\win32gui_struct.py',
+   'PYMODULE'),
+  ('win32timezone',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32\\lib\\win32timezone.py',
+   'PYMODULE'),
+  ('win32traceutil',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32\\lib\\win32traceutil.py',
+   'PYMODULE'),
+  ('winerror',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\win32\\lib\\winerror.py',
+   'PYMODULE'),
+  ('winshell',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\site-packages\\winshell.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\zipfile.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\win8.1 '
+   '32\\AppData\\Local\\Programs\\Python\\Python311-32\\Lib\\zipimport.py',
+   'PYMODULE')])

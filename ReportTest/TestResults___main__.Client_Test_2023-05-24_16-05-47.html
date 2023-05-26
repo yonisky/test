@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Client_3.171_Windows10_x86_Test Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Client_3.171_Windows10_x86_Test Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2023-05-24 16:05:47</p>
+                <p class='attribute'><strong>Duration: </strong>147.27 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 5, Pass: 1, Error: 4</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.Client_Test</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_037_ext_download_from_personal_drive_to_local_drive</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">FileNotFoundError: [WinError 2] 지정된 파일을 찾을 수 없습니다: 'C:\\Users\\win8.1 32\\Desktop\\download.txt'</p><p style="color:maroon;">Traceback (most recent call last):
+  File "c:\Users\win8.1 32\Desktop\code\230517_QA_autotest_NL_SP_SSK\pyiboot00_CryptoLocker.py", line 453, in test_037_ext_download_from_personal_drive_to_local_drive
+    self.assertTrue(cmp(find_drive('개인문서함')+'download.txt', os.path.join(os.path.expanduser('~'), 'Desktop', 'download.txt')))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\filecmp.py", line 54, in cmp
+    s2 = _sig(os.stat(f2))
+              ^^^^^^^^^^^
+FileNotFoundError: [WinError 2] 지정된 파일을 찾을 수 없습니다: 'C:\\Users\\win8.1 32\\Desktop\\download.txt'
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_038_weblink_in_personal_drive</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>2023-05-24 16:06:11.811 pyiboot7.py[433] weblink -> Find Control Timeout(10s): {Name: 'weblink.txt', ControlType: ListItemControl}
+2023-05-24 16:06:21.920 pyiboot7.py[438] weblink -> Find Control Timeout(10s): {Name: 'DWM Notification Window', ControlType: WindowControl}
+</p><p style="color:maroon;">LookupError: Find Control Timeout(10s): {Name: 'DWM Notification Window', ControlType: WindowControl}</p><p style="color:maroon;">Traceback (most recent call last):
+  File "c:\Users\win8.1 32\Desktop\code\230517_QA_autotest_NL_SP_SSK\pyiboot7.py", line 433, in weblink
+    window.ListItemControl(Name=file).Click()
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\uiautomation\uiautomation.py", line 6546, in Click
+    point = self.MoveCursorToInnerPos(x, y, ratioX, ratioY, simulateMove)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\uiautomation\uiautomation.py", line 6507, in MoveCursorToInnerPos
+    rect = self.BoundingRectangle
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\uiautomation\uiautomation.py", line 5907, in BoundingRectangle
+    rect = self.Element.CurrentBoundingRectangle
+           ^^^^^^^^^^^^
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\uiautomation\uiautomation.py", line 6224, in Element
+    self.Refind(maxSearchSeconds=TIME_OUT_SECOND, searchIntervalSeconds=self.searchInterval)
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\uiautomation\uiautomation.py", line 6475, in Refind
+    raise LookupError('Find Control Timeout({}s): {}'.format(maxSearchSeconds, self.GetSearchPropertiesStr()))
+LookupError: Find Control Timeout(10s): {Name: 'weblink.txt', ControlType: ListItemControl}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\win8.1 32\Desktop\code\230517_QA_autotest_NL_SP_SSK\pyiboot00_CryptoLocker.py", line 461, in test_038_weblink_in_personal_drive
+    chrome_result, msedge_result = weblink(web_version, find_drive('개인문서함'), 'weblink.txt')
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\win8.1 32\Desktop\code\230517_QA_autotest_NL_SP_SSK\pyiboot7.py", line 438, in weblink
+    window.MoveCursorToMyCenter()
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\uiautomation\uiautomation.py", line 6531, in MoveCursorToMyCenter
+    return self.MoveCursorToInnerPos(simulateMove=simulateMove)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\uiautomation\uiautomation.py", line 6507, in MoveCursorToInnerPos
+    rect = self.BoundingRectangle
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\uiautomation\uiautomation.py", line 5907, in BoundingRectangle
+    rect = self.Element.CurrentBoundingRectangle
+           ^^^^^^^^^^^^
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\uiautomation\uiautomation.py", line 6224, in Element
+    self.Refind(maxSearchSeconds=TIME_OUT_SECOND, searchIntervalSeconds=self.searchInterval)
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\uiautomation\uiautomation.py", line 6475, in Refind
+    raise LookupError('Find Control Timeout({}s): {}'.format(maxSearchSeconds, self.GetSearchPropertiesStr()))
+LookupError: Find Control Timeout(10s): {Name: 'DWM Notification Window', ControlType: WindowControl}
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_039_after_export_in_personal_drive</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>2023-05-24 16:06:22.039018
+2023-05-24 16:06:40.077 pyiboot7.py[549] after_export -> Find Control Timeout(10s): {AutomationId: '9227', ControlType: RadioButtonControl}
+후결재 일반반출 : 2023-05-24[16.06.40]
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_040_pre_export_in_personal_drive</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>2023-05-24 16:07:09.503388
+2023-05-24 16:07:27.152 pyiboot7.py[653] pre_export -> Find Control Timeout(10s): {Name: '승인권자(A):', ControlType: EditControl}
+2023-05-24 16:07:44.910 pyiboot7.py[671] pre_export -> Find Control Timeout(10s): {Name: '2023-05-24_160709', ControlType: TextControl}
+</p><p style="color:maroon;">NoAlertPresentException: Message: no such alert
+  (Session info: chrome=113.0.5672.127)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00F58893+48451]
+	(No symbol) [0x00EEB8A1]
+	(No symbol) [0x00DF4F20]
+	(No symbol) [0x00DEE37F]
+	(No symbol) [0x00E08384]
+	(No symbol) [0x00E3A334]
+	(No symbol) [0x00E0824D]
+	(No symbol) [0x00E3A0B6]
+	(No symbol) [0x00E17E08]
+	(No symbol) [0x00E18F2D]
+	GetHandleVerifier [0x011B8E3A+2540266]
+	GetHandleVerifier [0x011F8959+2801161]
+	GetHandleVerifier [0x011F295C+2776588]
+	GetHandleVerifier [0x00FE2280+612144]
+	(No symbol) [0x00EF4F6C]
+	(No symbol) [0x00EF11D8]
+	(No symbol) [0x00EF12BB]
+	(No symbol) [0x00EE4857]
+	BaseThreadInitThunk [0x76E5CF39+25]
+	RtlExpandEnvironmentStrings_U [0x772E252D+493]
+	RtlExpandEnvironmentStrings_U [0x772E2501+449]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "c:\Users\win8.1 32\Desktop\code\230517_QA_autotest_NL_SP_SSK\pyiboot00_CryptoLocker.py", line 490, in test_040_pre_export_in_personal_drive
+    pre_export(web_version, addr, id, pw, find_drive('개인문서함'), 'pre_export.txt') #반출신청 -> 승인 요청(웹뷰알람) -> 자가 승인(웹로그인) -> 내려받기 //크로미움 동작
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\win8.1 32\Desktop\code\230517_QA_autotest_NL_SP_SSK\pyiboot7.py", line 710, in pre_export
+    alert = driver.switch_to.alert
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\selenium\webdriver\remote\switch_to.py", line 55, in alert
+    _ = alert.text
+        ^^^^^^^^^^
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\selenium\webdriver\common\alert.py", line 59, in text
+    return self.driver.execute(Command.W3C_GET_ALERT_TEXT)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 440, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoAlertPresentException: Message: no such alert
+  (Session info: chrome=113.0.5672.127)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00F58893+48451]
+	(No symbol) [0x00EEB8A1]
+	(No symbol) [0x00DF4F20]
+	(No symbol) [0x00DEE37F]
+	(No symbol) [0x00E08384]
+	(No symbol) [0x00E3A334]
+	(No symbol) [0x00E0824D]
+	(No symbol) [0x00E3A0B6]
+	(No symbol) [0x00E17E08]
+	(No symbol) [0x00E18F2D]
+	GetHandleVerifier [0x011B8E3A+2540266]
+	GetHandleVerifier [0x011F8959+2801161]
+	GetHandleVerifier [0x011F295C+2776588]
+	GetHandleVerifier [0x00FE2280+612144]
+	(No symbol) [0x00EF4F6C]
+	(No symbol) [0x00EF11D8]
+	(No symbol) [0x00EF12BB]
+	(No symbol) [0x00EE4857]
+	BaseThreadInitThunk [0x76E5CF39+25]
+	RtlExpandEnvironmentStrings_U [0x772E252D+493]
+	RtlExpandEnvironmentStrings_U [0x772E2501+449]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_041_export_drive_when_cloudoc_login</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">IndexError: list index out of range</p><p style="color:maroon;">Traceback (most recent call last):
+  File "c:\Users\win8.1 32\Desktop\code\230517_QA_autotest_NL_SP_SSK\pyiboot00_CryptoLocker.py", line 503, in test_041_export_drive_when_cloudoc_login
+    f = open(export_drive+recent_file_name(export_drive, 0)+'\\pre_export.txt', 'r')
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\win8.1 32\Desktop\code\230517_QA_autotest_NL_SP_SSK\pyiboot7.py", line 797, in recent_file_name
+    if file_list[0][0] != "desktop.ini" and file_list[0][0] != 'System Volume Information':
+       ~~~~~~~~~^^^
+IndexError: list index out of range
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 5, Pass: 1, Error: 4 -- Duration: 147.27 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

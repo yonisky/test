@@ -1,0 +1,560 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="B_02" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1194,5559" sap2010:WorkflowViewState.IdRef="B_02_문서함_movecopy_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="23">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="25">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.PowerPoint</AssemblyReference>
+      <AssemblyReference>UiPath.Word</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="B.02" sap:VirtualizedContainerService.HintSize="602,5394" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Default="28" Name="tc_num" />
+      <Variable x:TypeArguments="x:String" Default="C:\RPA_TEST\RPA_Client_TC.xlsx" Name="testcase" />
+      <Variable x:TypeArguments="x:String" Name="scr_path" />
+      <Variable x:TypeArguments="x:String" Name="des_path" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="개인문서함 마운트 체크" sap:VirtualizedContainerService.HintSize="560,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_27" UnSafe="False" WorkflowFileName="D.테스트_검증/D.01.disk_mount_bat_vf.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="testcase">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="testcase" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">
+          <Literal x:TypeArguments="x:Int32" Value="13" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="label">
+          <Literal x:TypeArguments="x:String">개인문서함</Literal>
+        </InArgument>
+        <InArgument x:TypeArguments="x:Boolean" x:Key="mount">
+          <Literal x:TypeArguments="x:Boolean" Value="True" />
+        </InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:ReadTextFile Content="[scr_path]" DisplayName="scr_path에 개인문서함 경로 저장" FileName="C:\RPA_TEST\path.txt" sap:VirtualizedContainerService.HintSize="560,79" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+    <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="RPA 문서함 마운트 체크" sap:VirtualizedContainerService.HintSize="560,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_28" UnSafe="False" WorkflowFileName="D.테스트_검증/D.01.disk_mount_bat_vf.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="testcase">
+          <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="testcase" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">
+          <Literal x:TypeArguments="x:Int32" Value="20" />
+        </InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="label">
+          <Literal x:TypeArguments="x:String">RPA</Literal>
+        </InArgument>
+        <InArgument x:TypeArguments="x:Boolean" x:Key="mount">
+          <Literal x:TypeArguments="x:Boolean" Value="True" />
+        </InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:ReadTextFile Content="[des_path]" DisplayName="des_path에 RPA 문서함 경로 저장" FileName="C:\RPA_TEST\path.txt" sap:VirtualizedContainerService.HintSize="560,79" sap2010:WorkflowViewState.IdRef="ReadTextFile_2" />
+    <Sequence sap:VirtualizedContainerService.HintSize="560,4760" sap2010:WorkflowViewState.IdRef="Sequence_11">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="개인문서함 내 파일 이동" sap:VirtualizedContainerService.HintSize="518,684" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,288" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_1" Visible="False" WorkbookPath="Z:\move_file.xlsx">
+          <ui:ExcelApplicationScope.Body>
+            <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="376,179" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:ExcelWriteCell Cell="A1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_1" SheetName="Sheet1" Text="파일 이동, 복사 테스트입니다." />
+              </Sequence>
+            </ActivityAction>
+          </ui:ExcelApplicationScope.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:ExcelApplicationScope>
+        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="1depth로 파일 이동" sap:VirtualizedContainerService.HintSize="434,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="C.테스트_실행/C.03.file_move_ctrlxv.xaml">
+          <ui:InvokeWorkflowFile.Arguments>
+            <InArgument x:TypeArguments="x:String" x:Key="scr_path">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="des_path">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path+&quot;1depth\&quot;" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:Boolean" x:Key="change">
+              <Literal x:TypeArguments="x:Boolean" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="f_name">
+              <Literal x:TypeArguments="x:String">move_file</Literal>
+            </InArgument>
+          </ui:InvokeWorkflowFile.Arguments>
+        </ui:InvokeWorkflowFile>
+        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="1depth로 파일 이동 검증" sap:VirtualizedContainerService.HintSize="434,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="D.테스트_검증/D.04.file_move_vf.xaml">
+          <ui:InvokeWorkflowFile.Arguments>
+            <InArgument x:TypeArguments="x:String" x:Key="scr_path">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="des_path">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path+&quot;1depth\&quot;" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">
+              <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="tc_num" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="testcase">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="testcase" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="f_name">
+              <Literal x:TypeArguments="x:String">move_file.xlsx</Literal>
+            </InArgument>
+          </ui:InvokeWorkflowFile.Arguments>
+        </ui:InvokeWorkflowFile>
+      </Sequence>
+      <Sequence DisplayName="개인문서함 내 파일이동 overwrite" sap:VirtualizedContainerService.HintSize="518,784" sap2010:WorkflowViewState.IdRef="Sequence_5">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,288" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_2" Visible="False" WorkbookPath="Z:\move_file.xlsx">
+          <ui:ExcelApplicationScope.Body>
+            <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="376,179" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:ExcelWriteCell Cell="A1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_2" SheetName="Sheet1" Text="파일 이동 overwrite 테스트입니다." />
+              </Sequence>
+            </ActivityAction>
+          </ui:ExcelApplicationScope.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:ExcelApplicationScope>
+        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="1depth로 파일 이동 overwrite" sap:VirtualizedContainerService.HintSize="434,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="C.테스트_실행/C.03.file_move_ctrlxv.xaml">
+          <ui:InvokeWorkflowFile.Arguments>
+            <InArgument x:TypeArguments="x:String" x:Key="scr_path">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="des_path">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path+&quot;1depth\&quot;" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:Boolean" x:Key="change">
+              <Literal x:TypeArguments="x:Boolean" Value="True" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="f_name">
+              <Literal x:TypeArguments="x:String">move_file</Literal>
+            </InArgument>
+          </ui:InvokeWorkflowFile.Arguments>
+        </ui:InvokeWorkflowFile>
+        <Assign DisplayName="tc_num + 1" sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:Int32">[tc_num+1]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="1depth로 파일 이동 검증 overwrite" sap:VirtualizedContainerService.HintSize="434,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="D.테스트_검증/D.04.file_move_vf.xaml">
+          <ui:InvokeWorkflowFile.Arguments>
+            <InArgument x:TypeArguments="x:String" x:Key="scr_path">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="des_path">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path+&quot;1depth\&quot;" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">
+              <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="tc_num" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="testcase">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="testcase" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="f_name">
+              <Literal x:TypeArguments="x:String">move_file.xlsx</Literal>
+            </InArgument>
+          </ui:InvokeWorkflowFile.Arguments>
+        </ui:InvokeWorkflowFile>
+      </Sequence>
+      <Sequence DisplayName="개인문서함 -&gt; 부서문서함 파일 이동" sap:VirtualizedContainerService.HintSize="518,1608" sap2010:WorkflowViewState.IdRef="Sequence_13">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="476,288" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_5" Visible="False" WorkbookPath="Z:\move_file.xlsx">
+          <ui:ExcelApplicationScope.Body>
+            <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="376,179" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:ExcelWriteCell Cell="A1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_5" SheetName="Sheet1" Text="파일 이동, 복사 테스트입니다." />
+              </Sequence>
+            </ActivityAction>
+          </ui:ExcelApplicationScope.Body>
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </ui:ExcelApplicationScope>
+        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="부서문서함으로 파일 이동" sap:VirtualizedContainerService.HintSize="476,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_15" UnSafe="False" WorkflowFileName="C.테스트_실행/C.03.file_move_ctrlxv.xaml">
+          <ui:InvokeWorkflowFile.Arguments>
+            <InArgument x:TypeArguments="x:String" x:Key="scr_path">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="des_path">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="des_path" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:Boolean" x:Key="change">
+              <Literal x:TypeArguments="x:Boolean" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="f_name">
+              <Literal x:TypeArguments="x:String">move_file</Literal>
+            </InArgument>
+          </ui:InvokeWorkflowFile.Arguments>
+        </ui:InvokeWorkflowFile>
+        <Assign DisplayName="tc_num + 1" sap:VirtualizedContainerService.HintSize="476,60" sap2010:WorkflowViewState.IdRef="Assign_2">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:Int32">[tc_num+1]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="부서문서함으로 파일 이동 검증" sap:VirtualizedContainerService.HintSize="476,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_16" UnSafe="False" WorkflowFileName="D.테스트_검증/D.04.file_move_vf.xaml">
+          <ui:InvokeWorkflowFile.Arguments>
+            <InArgument x:TypeArguments="x:String" x:Key="scr_path">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="des_path">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="des_path" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">
+              <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="tc_num" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="testcase">
+              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="testcase" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="f_name">
+              <Literal x:TypeArguments="x:String">move_file.xlsx</Literal>
+            </InArgument>
+          </ui:InvokeWorkflowFile.Arguments>
+        </ui:InvokeWorkflowFile>
+        <Sequence DisplayName="개인문서함 -&gt; 부서문서함 파일 이동 overwrite" sap:VirtualizedContainerService.HintSize="476,784" sap2010:WorkflowViewState.IdRef="Sequence_17">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:ExcelApplicationScope Password="{x:Null}" DisplayName="Excel Application Scope" sap:VirtualizedContainerService.HintSize="434,288" sap2010:WorkflowViewState.IdRef="ExcelApplicationScope_7" Visible="False" WorkbookPath="Z:\move_file.xlsx">
+            <ui:ExcelApplicationScope.Body>
+              <ActivityAction x:TypeArguments="ui:WorkbookApplication">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="ui:WorkbookApplication" Name="ExcelWorkbookScope" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="376,179" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:ExcelWriteCell Cell="A1" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="334,87" sap2010:WorkflowViewState.IdRef="ExcelWriteCell_7" SheetName="Sheet1" Text="파일 이동 overwrite 테스트입니다." />
+                </Sequence>
+              </ActivityAction>
+            </ui:ExcelApplicationScope.Body>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </ui:ExcelApplicationScope>
+          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="부서문서함으로 파일 이동 overwrite" sap:VirtualizedContainerService.HintSize="434,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_19" UnSafe="False" WorkflowFileName="C.테스트_실행/C.03.file_move_ctrlxv.xaml">
+            <ui:InvokeWorkflowFile.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="scr_path">
+                <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path" />
+              </InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="des_path">
+                <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="des_path" />
+              </InArgument>
+              <InArgument x:TypeArguments="x:Boolean" x:Key="change">
+                <Literal x:TypeArguments="x:Boolean" Value="True" />
+              </InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="f_name">
+                <Literal x:TypeArguments="x:String">move_file</Literal>
+              </InArgument>
+            </ui:InvokeWorkflowFile.Arguments>
+          </ui:InvokeWorkflowFile>
+          <Assign DisplayName="tc_num + 1" sap:VirtualizedContainerService.HintSize="434,60" sap2010:WorkflowViewState.IdRef="Assign_3">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">[tc_num+1]</InArgument>
+            </Assign.Value>
+          </Assign>
+          <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="부서문서함으로 파일 overwrite 검증" sap:VirtualizedContainerService.HintSize="434,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_20" UnSafe="False" WorkflowFileName="D.테스트_검증/D.04.file_move_vf.xaml">
+            <ui:InvokeWorkflowFile.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="scr_path">
+                <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path" />
+              </InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="des_path">
+                <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="des_path" />
+              </InArgument>
+              <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">
+                <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="tc_num" />
+              </InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="testcase">
+                <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="testcase" />
+              </InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="f_name">
+                <Literal x:TypeArguments="x:String">move_file.xlsx</Literal>
+              </InArgument>
+            </ui:InvokeWorkflowFile.Arguments>
+          </ui:InvokeWorkflowFile>
+        </Sequence>
+      </Sequence>
+      <Assign DisplayName="tc_num" sap:VirtualizedContainerService.HintSize="518,60" sap2010:WorkflowViewState.IdRef="Assign_4">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">38</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="1depth\ 파일 삭제 취소 검증" sap:VirtualizedContainerService.HintSize="518,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_21" UnSafe="False" WorkflowFileName="D.테스트_검증/D.06.file_delete_doc_vf.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="testcase">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="testcase" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">
+            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="tc_num" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="d_path">
+            <Literal x:TypeArguments="x:String">1depth\</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="d_drive">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="f_name">
+            <Literal x:TypeArguments="x:String">move_file</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="x:Int32" x:Key="type">
+            <Literal x:TypeArguments="x:Int32" />
+          </InArgument>
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
+      <Assign DisplayName="tc_num + 1" sap:VirtualizedContainerService.HintSize="518,60" sap2010:WorkflowViewState.IdRef="Assign_5">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">[tc_num+1]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="1depth\ 파일 삭제 진행 검증" sap:VirtualizedContainerService.HintSize="518,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_22" UnSafe="False" WorkflowFileName="D.테스트_검증/D.06.file_delete_doc_vf.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="testcase">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="testcase" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">
+            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="tc_num" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="d_path">
+            <Literal x:TypeArguments="x:String">1depth\</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="d_drive">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="f_name">
+            <Literal x:TypeArguments="x:String">move_file</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="x:Int32" x:Key="type">
+            <Literal x:TypeArguments="x:Int32" Value="1" />
+          </InArgument>
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
+      <Assign DisplayName="tc_num + 2" sap:VirtualizedContainerService.HintSize="518,60" sap2010:WorkflowViewState.IdRef="Assign_6">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">[tc_num+2]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="부서문서함 서버 삭제 취소 검증" sap:VirtualizedContainerService.HintSize="518,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_23" UnSafe="False" WorkflowFileName="D.테스트_검증/D.07.file_delete_s_vf.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="testcase">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="testcase" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">
+            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="tc_num" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="d_path" />
+          <InArgument x:TypeArguments="x:String" x:Key="d_drive">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="des_path" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:Boolean" x:Key="click">
+            <Literal x:TypeArguments="x:Boolean" />
+          </InArgument>
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
+      <Assign DisplayName="tc_num + 1" sap:VirtualizedContainerService.HintSize="518,60" sap2010:WorkflowViewState.IdRef="Assign_7">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">[tc_num+1]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="부서문서함 서버 삭제 진행 검증" sap:VirtualizedContainerService.HintSize="518,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_24" UnSafe="False" WorkflowFileName="D.테스트_검증/D.07.file_delete_s_vf.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="testcase">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="testcase" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">
+            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="tc_num" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="d_path" />
+          <InArgument x:TypeArguments="x:String" x:Key="d_drive">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="des_path" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:Boolean" x:Key="click">
+            <Literal x:TypeArguments="x:Boolean" Value="True" />
+          </InArgument>
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
+      <Assign DisplayName="tc_num" sap:VirtualizedContainerService.HintSize="518,60" sap2010:WorkflowViewState.IdRef="Assign_8">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">46</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="개인문서함 recycle 검증" sap:VirtualizedContainerService.HintSize="518,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_25" UnSafe="False" WorkflowFileName="D.테스트_검증/D.09.recycle_vf.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="testcase">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="testcase" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">
+            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="tc_num" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="f_name">
+            <Literal x:TypeArguments="x:String">move_file.xlsx</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="path">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="scr_path" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="f_path">
+            <Literal x:TypeArguments="x:String">1depth\</Literal>
+          </InArgument>
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
+      <Assign DisplayName="tc_num + 1" sap:VirtualizedContainerService.HintSize="518,60" sap2010:WorkflowViewState.IdRef="Assign_9">
+        <Assign.To>
+          <OutArgument x:TypeArguments="x:Int32">[tc_num]</OutArgument>
+        </Assign.To>
+        <Assign.Value>
+          <InArgument x:TypeArguments="x:Int32">[tc_num+1]</InArgument>
+        </Assign.Value>
+      </Assign>
+      <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="부서문서함 recycle 검증" sap:VirtualizedContainerService.HintSize="518,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_26" UnSafe="False" WorkflowFileName="D.테스트_검증/D.09.recycle_vf.xaml">
+        <ui:InvokeWorkflowFile.Arguments>
+          <InArgument x:TypeArguments="x:String" x:Key="testcase">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="testcase" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:Int32" x:Key="tc_num">
+            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="tc_num" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="f_name">
+            <Literal x:TypeArguments="x:String">move_file.xlsx</Literal>
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="path">
+            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="des_path" />
+          </InArgument>
+          <InArgument x:TypeArguments="x:String" x:Key="f_path" />
+        </ui:InvokeWorkflowFile.Arguments>
+      </ui:InvokeWorkflowFile>
+    </Sequence>
+  </Sequence>
+</Activity>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Client_3.171_Windows10_x86_Test Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Client_3.171_Windows10_x86_Test Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2023-05-24 16:40:17</p>
+                <p class='attribute'><strong>Duration: </strong>99.78 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.Client_Test</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_040_pre_export_in_personal_drive</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>2023-05-24 16:40:17.437540
+2023-05-24 16:40:35.047 pyiboot7.py[653] pre_export -> Find Control Timeout(10s): {Name: '승인권자(A):', ControlType: EditControl}
+</p><p style="color:maroon;">PermissionError: [Errno 13] Permission denied: 'T:\\2023-05-24[16.41.20]\\pre_export.txt'</p><p style="color:maroon;">Traceback (most recent call last):
+  File "c:\Users\win8.1 32\Desktop\code\230517_QA_autotest_NL_SP_SSK\pyiboot00_CryptoLocker.py", line 493, in test_040_pre_export_in_personal_drive
+    compare_export_drive = cmp(find_drive('개인문서함')+'pre_export.txt', find_drive('반출 보안 디스크')+exp_folder_name+'\\pre_export.txt') #cmp -> Return True x permission denied , os.path 동일 실행
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\filecmp.py", line 64, in cmp
+    outcome = _do_cmp(f1, f2)
+              ^^^^^^^^^^^^^^^
+  File "C:\Users\win8.1 32\AppData\Local\Programs\Python\Python311-32\Lib\filecmp.py", line 77, in _do_cmp
+    with open(f1, 'rb') as fp1, open(f2, 'rb') as fp2:
+                                ^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'T:\\2023-05-24[16.41.20]\\pre_export.txt'
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 99.78 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
