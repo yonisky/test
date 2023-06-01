@@ -1,0 +1,26 @@
+시스템 Path 환경변수 추가
+C:\Users\netid\AppData\Local\Programs\Python
+
+관리자권한 명령프롬프트로 접속, 해당명령어 수행
+
+python -m pip install --upgrade pip
+
+pip install wheel 
+pip install pyinstaller
+pip install tinyaes -> ( https://visualstudio.microsoft.com/visual-cpp-build-tools )
+pip install --upgrade pip setuptools wheel 
+pip install opencv-python 
+(vsbuild tools 재배포 visual c++ , pip install pyproject.toml)
+
+인스톨러 배포 명령어_x64
+pyinstaller --noconfirm --onefile --console --icon "icon.ico" --name "x64_ClouDoc_QA_v2.0" --clean --key "TeamSQA" --version-file "file_version_info.txt" "pyiboot00_CryptoLocker.py"
+
+
+인스톨러 배포 명령어_x86
+pyinstaller --noconfirm --onefile --console --icon "icon.ico" --name "x86_ClouDoc_QA_v1.4" --clean --key "TeamSQA" --version-file "file_version_info.txt" "pyiboot00_CryptoLocker.py"
+
+
+<web테스트예시>
+pyinstaller --noconfirm --onefile --console --icon "icon.ico" --name "x64_ClouDoc_QA_v2.1" --clean --key "TeamSQA" --version-file "file_version_info.txt" "test_.py"
+
+

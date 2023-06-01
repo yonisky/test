@@ -1,0 +1,9 @@
+html-testRunner==1.2.1 	
+PyAutoGUI==0.9.52	
+PyGetWindow==0.0.9
+pywin32==304		
+pywinauto==0.6.8	
+requests==2.25.1 		
+selenium==4.9.1
+uiautomation==2.0.10	
+winshell==0.6		
